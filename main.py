@@ -26,8 +26,6 @@ if __name__ == "__main__":
     print("After processing:")
     print(processed_resp)
 
-    prob_min_to_show_positive_emoticon = 0.75
-
     """ 你的 APPID AK SK """
     APP_ID = config['baidu']['app_id']
     API_KEY = config['baidu']['api_key']
