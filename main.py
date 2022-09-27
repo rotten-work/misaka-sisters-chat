@@ -31,7 +31,7 @@ if __name__ == "__main__":
     API_KEY = config['baidu']['api_key']
     SECRET_KEY = config['baidu']['secret_key']
 
-    sentiment_res = sentiment_unit.get_sentiment_result(processed_resp, str(APP_ID), API_KEY, SECRET_KEY)
+    sentiment_res = sentiment_unit.get_sentiment_result(response, str(APP_ID), API_KEY, SECRET_KEY)
     print(sentiment_res)
 
     # Parse sentiment result
